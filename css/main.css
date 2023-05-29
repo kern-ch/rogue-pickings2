@@ -196,5 +196,26 @@ footer span {
 
 /****** Breakpoint Desktop ******/
 @media all and (min-width: 1200px) {
+	body {
+		font-size: 1rem;
+	}
+	header .content-wrapper{
+		justify-content: space-between;
+		align-items: center;
+	}
+	header h1 {
+		width: 30%;
+		padding: 20px 0;
+		border-bottom: none;
+		text-align: left;
 
+	}
+	header nav {
+		width: 21%;
+
+	}
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
 }
